@@ -1,0 +1,23 @@
+{
+    "items": [{
+        "sku": "a",
+        "quantity": 5,
+        "price": 100,
+        "category": "drink"
+    }, {
+        "sku": "b",
+        "quantity": 2,
+        "price": 80,
+        "category": "drink"
+    }, {
+        "sku": "c",
+        "quantity": 3,
+        "price": 99,
+        "category": "fruit"
+    }, {
+        "sku": "d",
+        "quantity": 1,
+        "price": 10,
+        "category": "vegetables"
+    }]
+}
