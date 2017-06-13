@@ -15,6 +15,7 @@ router.get('/promise/:waitTime?', noResponseCache, (req, res, next) => {
   const waitTime = req.params.waitTime || 10000;
   waitAndReturnAPromise(waitTime)
     .then(() => res.status(200).send('Promise returned'))
+    .catch((e) => res.status(500).send(e));
 });
 
 router.get('/async/:waitTime?', noResponseCache, async (req, res, next) => {
